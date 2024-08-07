@@ -7,7 +7,7 @@ Welcome to my DIY Transcriptomics project repository! This repository contains c
 I will also try to diverge and analyze/visualize the data partly in Python aside from R.   
 
 
-Project Structure
+Project Structure  
 /data: Raw and processed data files used in the analysis.  
 /scripts: Custom scripts for processing RNA-seq data, including quality control, alignment, quantification, and differential expression analysis.  
 /notebooks: Jupyter notebooks documenting the step-by-step analysis process, with explanations and visualizations.  
