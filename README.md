@@ -34,7 +34,7 @@ Follow the instructions in the requirements.txt file or the R setup script.
 Run the analysis:  
 Execute the scripts or notebooks in the order provided to reproduce the analysis.  
 
-Notes
+Notes:  
 This repository is a work in progress as I continue learning and updating the analysis.
 Feel free to contribute or provide feedback!  
 
