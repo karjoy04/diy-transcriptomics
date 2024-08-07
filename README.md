@@ -4,7 +4,7 @@ Course link: https://diytranscriptomics.com/
 
 
 Welcome to my DIY Transcriptomics project repository! This repository contains code, scripts, and notes from my journey through the RNA-seq analysis section of the DIY transcriptomics course. The aim is to apply the concepts learned and create a resource for future reference. I also used harrisonized/diy-transcriptomics github repository as a supplement to help me with parts that are hard to follow and reproduce for custom analysis. 
-I will also try to diverge and see if I can analyze/visualize the data partly in Python to compare the usability and comfort. 
+I will also try to diverge and analyze/visualize the data partly in Python aside from R.   
 
 
 Project Structure
