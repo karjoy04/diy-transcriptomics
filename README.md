@@ -6,6 +6,7 @@ I will also try to diverge and see if I can analyze/visualize the data partly in
 
 
 Project Structure
+
 /data: Raw and processed data files used in the analysis.
 /scripts: Custom scripts for processing RNA-seq data, including quality control, alignment, quantification, and differential expression analysis.
 /notebooks: Jupyter notebooks documenting the step-by-step analysis process, with explanations and visualizations.
@@ -13,6 +14,7 @@ Project Structure
 /docs: Notes and additional documentation related to the RNA-seq analysis.
 
 Tools & Packages
+
 This project uses the following tools and packages:
 Python: For scripting, data analysis, visulaization.
 R: For statistical analysis and visualization.
