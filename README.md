@@ -25,7 +25,6 @@ FastQC: Quality control for high-throughput sequence data.
 
 Getting Started  
 Clone the repository:  
-
 bash  
 Copy code  
 git clone https://github.com/your-username/DIY-Transcriptomics.git  
