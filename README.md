@@ -10,7 +10,7 @@ I will also try to diverge and analyze/visualize the data partly in Python aside
 Project Structure  
 /data: Raw and processed data files used in the analysis.  
 /scripts: Custom scripts for processing RNA-seq data, including quality control, alignment, quantification, and differential expression analysis.  
-/notebooks: Jupyter notebooks documenting the step-by-step analysis process, with explanations and visualizations. I will mainly VSCode.   
+/notebooks: Jupyter notebooks documenting the step-by-step analysis process, with explanations and visualizations. I will mainly use VSCode for writing and executing the code.     
 /results: Output files from the analysis, such as count matrices, plots, and differential expression results.  
 /docs: Notes and additional documentation related to the RNA-seq analysis.  
 
