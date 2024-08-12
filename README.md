@@ -116,6 +116,10 @@ or
 #install the R Packages within renv
 renv::install("tensorflow")
 renv::install("reticulate")
+#install in conda env
+conda activate r-reticulate
+conda install tensorflow
+conda install -c conda-forge tensorflow-probability
 
 # It is also important to create an empty project directory beforehand to avoid getting the following warning when trying to snapshot renv environment due to the large number of unnecessary files in the project directory
 
