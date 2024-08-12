@@ -140,8 +140,17 @@ renv::restore() #to restore the setup later
 
 git init
 git status
-git add renv.lock
-git commit -m "Update renv.lock to track R 4.4.1 and renv 1.0.7"
+git add path/renv.lock #add your path directory
+git commit -m "Add renv.lock file"
+git checkout main
+git merge renv
+git push origin main
+#to check the root directory files 
+pwd
+ls -a  
+
+#The process was more complicated than expected as I kept making mistakes while creating a branch and merging it with the main at the git repository. 
+
 ```
    
 
