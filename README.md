@@ -137,6 +137,31 @@ tensorflow::install_tensorflow(extra_packages = "tensorflow-probability")
 renv::snapshot() #to record current state
 renv::restore() #to restore the setup later
 ```
+Check that it installed properly. In your R console:
+
+```
+reticulate::use_condaenv('r-reticulate')
+reticulate::import("tensorflow")
+reticulate::import("tensorflow_probability")
+reticulate::py_discover_config("keras")
+
+```
+Output: 
+```
+> reticulate::use_condaenv('r-reticulate')
+> reticulate::import("tensorflow")
+Module(tensorflow)
+> reticulate::import("tensorflow_probability")
+Module(tensorflow_probability)
+> reticulate::py_discover_config("keras")
+python:         /opt/miniconda3/envs/r-reticulate/bin/python
+libpython:      /opt/miniconda3/envs/r-reticulate/lib/libpython3.10.dylib
+pythonhome:     /opt/miniconda3/envs/r-reticulate:/opt/miniconda3/envs/r-reticulate
+version:        3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:51:49) [Clang 16.0.6 ]
+numpy:          /opt/miniconda3/envs/r-reticulate/lib/python3.10/site-packages/numpy
+numpy_version:  1.26.4
+keras:          /opt/miniconda3/envs/r-reticulate/lib/python3.10/site-packages/keras
+```
 7. Backup to commit the updated renv.lock file to version control.
 ```
 #done to ensure that all changes are tracked for future reference and reproducibility.
@@ -156,7 +181,7 @@ ls -a
 #The process was more complicated than expected as I kept making mistakes while creating a branch and merging it with the main at the git repository. 
 
 ```
-   
+8.    
 
 
    
