@@ -181,7 +181,13 @@ ls -a
 #The process was more complicated than expected as I kept making mistakes while creating a branch and merging it with the main at the git repository. 
 
 ```
-8.    
+8. Download Salmon- an alternate tool to map reads
+```
+CONDA_SUBDIR=osx-64 conda create -n rosetta
+conda activate rosetta
+conda env config vars set CONDA_SUBDIR=osx-64
+conda install salmon
+```
 
 
    
