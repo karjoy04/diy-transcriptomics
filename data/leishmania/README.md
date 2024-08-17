@@ -1,4 +1,5 @@
-This is considered to be the "course dataset", even though the course uses multiple datasets. As such, Links to the data are available here: [https://diytranscriptomics.com/data](https://diytranscriptomics.com/data)
+Dataset for Lecture 2.
+Data are available here: [https://diytranscriptomics.com/data](https://diytranscriptomics.com/data)
 
 Download the following files:
 
@@ -14,5 +15,6 @@ Download the following files:
 	│   ...
 	└─ studyDesign.txt
 	```
-Note that you can also download the fastq files from the ENA browser directly [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA525604).
+You can also download the fastq files from the ENA browser directly [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA525604).
 3. Use `map_reads.sh` to convert the fastq file to `mapped_reads` files.
+4. Pre-mapped data [here](https://drive.google.com/drive/folders/1uUUeSd3DusJHqyKOAdBdh44eayvBnDXg).
