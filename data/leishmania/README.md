@@ -15,6 +15,6 @@ Download the following files:
 	│   ...
 	└─ studyDesign.txt
 	```
-You can also download the fastq files from the ENA browser directly [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA525604).
-3. Use `map_reads.sh` to convert the fastq file to `mapped_reads` files.
-4. Pre-mapped data [here](https://drive.google.com/drive/folders/1uUUeSd3DusJHqyKOAdBdh44eayvBnDXg).
+You can also download the fastq files from the ENA browser directly [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA525604).	
+3. Use `map_reads.sh` to convert the fastq file to `mapped_reads` files.	
+4. Pre-mapped data [here](https://drive.google.com/drive/folders/1uUUeSd3DusJHqyKOAdBdh44eayvBnDXg).	
