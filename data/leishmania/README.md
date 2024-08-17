@@ -15,5 +15,4 @@ Download the following files:
 	└─ studyDesign.txt
 	```
 Note that you can also download the fastq files from the ENA browser directly [here](https://www.ebi.ac.uk/ena/browser/view/PRJNA525604).
-3. Use `map_reads.sh` to convert the fastq file to `mapped_reads` files. Alternatively, if you cannot accomplish this, you can download it from [here](https://drive.google.com/file/d/1WUbHa4eQ2gjvBve-wY1SveoVMYt_MiNq/view).
-4. When using `build_kallisto_index.sh`, `multiqc_report` and `multiqc_data` will be generated.
+3. Use `map_reads.sh` to convert the fastq file to `mapped_reads` files.
