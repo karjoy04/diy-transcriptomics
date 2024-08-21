@@ -57,6 +57,7 @@ brew install kallisto
 ```
 4. Install Centrifuge with Rosetta 2.
 ```
+sudo make env ---centrifuge
 # install Rosetta 2
 /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
