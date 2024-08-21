@@ -55,9 +55,10 @@ export PATH="~/homebrew/bin:$PATH"  # you can replace the ~ with your path to ho
 
 brew install kallisto
 ```
-4. Install Centrifuge with Rosetta 2.
+4. Install Centrifuge with Rosetta 2 in centrifuge environment in conda
 ```
 sudo make env ---centrifuge
+sudo activate centrifuge
 # install Rosetta 2
 /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
